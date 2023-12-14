@@ -1,0 +1,67 @@
+.landing-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.landing-catalogo-button {
+  border-radius: 20px;
+  background-color: #aab9e4;
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  color: #1e1e1e;
+  font-weight: bold;
+  box-shadow: none;
+  border: none;
+  padding: 0.8rem;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+
+  &:hover {
+    color: white;
+    background-color: #d2632c;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+}
+
+.casa-simpletech {
+  width: 800px;
+}
+
+.landing-middle-content {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0;
+  height: 50rem;
+}
+
+.landing-footer {
+  background-color: #d2632c;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 480px) {
+  .landing-middle-content {
+    height: 30rem;
+  }
+
+  .landing-footer {
+    height: 7rem;
+    display: block;
+  }
+
+  .landing-catalogo-button {
+    font-size: 10px;
+  }
+}
