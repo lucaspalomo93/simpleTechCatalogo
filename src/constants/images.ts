@@ -1,24 +1,25 @@
 // COLOR PICKERS
 import BLACK_PICKER from '/img/colorPickers/BLACK.png';
-import LIGHT_BROWN_PICKER from '/img/colorPickers/LIGHT_BROWN.png';
 import BROWN_PICKER from '/img/colorPickers/BROWN.png';
 import CREAM_PICKER from '/img/colorPickers/CREAM.png';
 import DARK_GREY_PICKER from '/img/colorPickers/DARK_GREY.png';
+import LIGHT_BROWN_PICKER from '/img/colorPickers/LIGHT_BROWN.png';
 import LIGHT_GREY_PICKER from '/img/colorPickers/LIGHT_GREY.png';
 import WHITE_PICKER from '/img/colorPickers/WHITE.png';
 
 // SIDEBAR ICONS
+import MICRONERVADO from '/img/sideBarIcons/MICRONERVADO.svg';
 import SINUSOIDAL from '/img/sideBarIcons/SINUSOIDAL.svg';
 import TEJA from '/img/sideBarIcons/TEJA.svg';
 import TRAPEZOIDAL from '/img/sideBarIcons/TRAPEZOIDAL.svg';
-import MICRONERVADO from '/img/sideBarIcons/MICRONERVADO.svg';
 
 // GENERIC ICONS
-import S_ICON from '/img/icon/S_ICON.svg';
-import DOWN_ARROW from '/img/icon/DOWN_ARROW.svg';
-import RIGHT_ARROW from '/img/icon/RIGHT_ARROW.svg';
 import CLOSE_ICON from '/img/icon/CLOSE_ICON.svg';
+import DOWN_ARROW from '/img/icon/DOWN_ARROW.svg';
 import DROPWDOWN_ICON from '/img/icon/DROPWDOWN_ICON.svg';
+import RIGHT_ARROW from '/img/icon/RIGHT_ARROW.svg';
+import SIMPLETECH_TEXT_LOGO from '/img/icon/SIMPLETECH_TEXT_LOGO.png';
+import S_ICON from '/img/icon/S_ICON.svg';
 
 // SIDEBAR IMGES
 import GALERIA_TRAPEZOIDAL_01 from '/img/sideBarImages/trapezoidal/GALERIA_TRAPEZOIDAL_01.jpg';
@@ -46,29 +47,25 @@ import GALERIA_MICRONERVADO_04 from '/img/sideBarImages/micronervado/GALERIA_MIC
 import GALERIA_MICRONERVADO_05 from '/img/sideBarImages/micronervado/GALERIA_MICRONERVADO_05.jpg';
 
 // SOLUTION MAIN IMAGES
+import PAREDES_MICRONERVADO_BLACK from '/img/sections/PAREDES_MICRONERVADO_BLACK.png';
+import PAREDES_MICRONERVADO_CREAM from '/img/sections/PAREDES_MICRONERVADO_CREAM.png';
+import { default as PAREDES_MICRONERVADO_DARK_GREY, default as PAREDES_MICRONERVADO_DEFAULT } from '/img/sections/PAREDES_MICRONERVADO_DARK_GREY.png';
+import PAREDES_MICRONERVADO_LIGHT_GREY from '/img/sections/PAREDES_MICRONERVADO_LIGHT_GREY.png';
+import PAREDES_MICRONERVADO_WHITE from '/img/sections/PAREDES_MICRONERVADO_WHITE.png';
 import TECHOS_SINUSOIDAL_BLACK from '/img/sections/TECHOS_SINUSOIDAL_BLACK.png';
 import TECHOS_SINUSOIDAL_BROWN from '/img/sections/TECHOS_SINUSOIDAL_BROWN.png';
 import TECHOS_SINUSOIDAL_CREAM from '/img/sections/TECHOS_SINUSOIDAL_CREAM.png';
-import TECHOS_SINUSOIDAL_DARK_GREY from '/img/sections/TECHOS_SINUSOIDAL_DARK_GREY.png';
+import { default as TECHOS_SINUSOIDAL_DARK_GREY, default as TECHOS_SINUSOIDAL_DEFAULT } from '/img/sections/TECHOS_SINUSOIDAL_DARK_GREY.png';
 import TECHOS_SINUSOIDAL_LIGHT_GREY from '/img/sections/TECHOS_SINUSOIDAL_LIGHT_GREY.png';
 import TECHOS_SINUSOIDAL_WHITE from '/img/sections/TECHOS_SINUSOIDAL_WHITE.png';
-import TECHOS_SINUSOIDAL_DEFAULT from '/img/sections/TECHOS_SINUSOIDAL_DARK_GREY.png';
+import TECHOS_TEJA_BLACK from '/img/sections/TECHOS_TEJA_BLACK.png';
+import { default as TECHOS_TEJA_DEFAULT, default as TECHOS_TEJA_LIGHT_BROWN } from '/img/sections/TECHOS_TEJA_LIGHT_BROWN.png';
 import TECHOS_TRAPEZOIDAL_BLACK from '/img/sections/TECHOS_TRAPEZOIDAL_BLACK.png';
 import TECHOS_TRAPEZOIDAL_BROWN from '/img/sections/TECHOS_TRAPEZOIDAL_BROWN.png';
 import TECHOS_TRAPEZOIDAL_CREAM from '/img/sections/TECHOS_TRAPEZOIDAL_CREAM.png';
-import TECHOS_TRAPEZOIDAL_DARK_GREY from '/img/sections/TECHOS_TRAPEZOIDAL_DARK_GREY.png';
+import { default as TECHOS_TRAPEZOIDAL_DARK_GREY, default as TECHOS_TRAPEZOIDAL_DEFAULT } from '/img/sections/TECHOS_TRAPEZOIDAL_DARK_GREY.png';
 import TECHOS_TRAPEZOIDAL_LIGHT_GREY from '/img/sections/TECHOS_TRAPEZOIDAL_LIGHT_GREY.png';
 import TECHOS_TRAPEZOIDAL_WHITE from '/img/sections/TECHOS_TRAPEZOIDAL_WHITE.png';
-import TECHOS_TRAPEZOIDAL_DEFAULT from '/img/sections/TECHOS_TRAPEZOIDAL_DARK_GREY.png';
-import TECHOS_TEJA_LIGHT_BROWN from '/img/sections/TECHOS_TEJA_LIGHT_BROWN.png';
-import TECHOS_TEJA_BLACK from '/img/sections/TECHOS_TEJA_BLACK.png';
-import TECHOS_TEJA_DEFAULT from '/img/sections/TECHOS_TEJA_LIGHT_BROWN.png';
-import PAREDES_MICRONERVADO_BLACK from '/img/sections/PAREDES_MICRONERVADO_BLACK.png';
-import PAREDES_MICRONERVADO_CREAM from '/img/sections/PAREDES_MICRONERVADO_CREAM.png';
-import PAREDES_MICRONERVADO_DARK_GREY from '/img/sections/PAREDES_MICRONERVADO_DARK_GREY.png';
-import PAREDES_MICRONERVADO_LIGHT_GREY from '/img/sections/PAREDES_MICRONERVADO_LIGHT_GREY.png';
-import PAREDES_MICRONERVADO_WHITE from '/img/sections/PAREDES_MICRONERVADO_WHITE.png';
-import PAREDES_MICRONERVADO_DEFAULT from '/img/sections/PAREDES_MICRONERVADO_DARK_GREY.png';
 
 import FLECHA_PANELES from '/img/sections/FLECHA_PANELES.png';
 
@@ -149,10 +146,10 @@ import PROJECT_RESIDENCIAL_3 from '/img/inspiration/projects/casas/viviendaResid
 import PROJECT_RESIDENCIAL_4 from '/img/inspiration/projects/casas/viviendaResidencial/PROJECT_RESIDENCIAL_4.jpg';
 
 // CABAÑAS
+import PROJECT_POTRERILLOS_0 from '/img/inspiration/projects/cabañas/cabañaPotrerillos/PROJECT_POTRERILLOS_0.jpeg';
 import PROJECT_POTRERILLOS_1 from '/img/inspiration/projects/cabañas/cabañaPotrerillos/PROJECT_POTRERILLOS_1.jpeg';
 import PROJECT_POTRERILLOS_2 from '/img/inspiration/projects/cabañas/cabañaPotrerillos/PROJECT_POTRERILLOS_2.jpeg';
 import PROJECT_POTRERILLOS_3 from '/img/inspiration/projects/cabañas/cabañaPotrerillos/PROJECT_POTRERILLOS_3.jpeg';
-import PROJECT_POTRERILLOS_0 from '/img/inspiration/projects/cabañas/cabañaPotrerillos/PROJECT_POTRERILLOS_0.jpeg';
 import PROJECT_POTRERILLOS_4 from '/img/inspiration/projects/cabañas/cabañaPotrerillos/PROJECT_POTRERILLOS_4.jpeg';
 
 import PROJECT_SOL_0 from '/img/inspiration/projects/cabañas/cabañaTierraDelSol/PROJECT_SOL_0.jpg';
@@ -176,16 +173,16 @@ import PROJECT_TINY_3 from '/img/inspiration/projects/tinyHouses/tiny/PROJECT_TI
 import PROJECT_TINY_4 from '/img/inspiration/projects/tinyHouses/tiny/PROJECT_TINY_4.jpg';
 
 // LANDING
-import CASA_SIMPLETECH from '/img/landing/CASA_SIMPLETECH.png';
 import BOTTOM_BACKGROUND from '/img/landing/BOTTOM_BACKGROUND.png';
+import CASA_SIMPLETECH from '/img/landing/CASA_SIMPLETECH.png';
+import FACEBOOK_ICON from '/img/landing/FACEBOOK_ICON.png';
 import FLECHA_DERECHA_LANDING from '/img/landing/FLECHA_DERECHA_LANDING.svg';
+import INSTAGRAM_ICON from '/img/landing/INSTAGRAM_ICON.png';
 import LANDING_BLUE_DETAIL from '/img/landing/LANDING_BLUE_DETAIL.png';
-import LANDING_RED_DETAIL from '/img/landing/LANDING_RED_DETAIL.png';
-import LANDING_LTN_ICON from '/img/landing/LANDING_LTN_ICON.png';
 import LANDING_HEARTH from '/img/landing/LANDING_HEARTH.png';
 import LANDING_INPUT_ARROW from '/img/landing/LANDING_INPUT_ARROW.png';
-import INSTAGRAM_ICON from '/img/landing/INSTAGRAM_ICON.png';
-import FACEBOOK_ICON from '/img/landing/FACEBOOK_ICON.png';
+import LANDING_LTN_ICON from '/img/landing/LANDING_LTN_ICON.png';
+import LANDING_RED_DETAIL from '/img/landing/LANDING_RED_DETAIL.png';
 import YOUTUBE_ICON from '/img/landing/YOUTUBE_ICON.png';
 
 // EXPORTS
@@ -214,6 +211,7 @@ export const ICON = {
   CLOSE_ICON,
   DROPWDOWN_ICON,
   FLECHA_PANELES,
+  SIMPLETECH_TEXT_LOGO
 };
 
 export const SIDEBAR_IMAGES = {
